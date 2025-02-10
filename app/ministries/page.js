@@ -1,4 +1,5 @@
-import { Users, Heart, BookOpen, Music, Child, Globe, HandHeart, Coffee } from 'lucide-react';
+import { Users, Heart, BookOpen, Music, Globe, HandHeart, Coffee, ArrowRight } from 'lucide-react';
+import Child from '../../components/Child';
 
 export default function Ministries() {
   return (
@@ -27,58 +28,78 @@ export default function Ministries() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                icon: Child,
-                title: "Children's Ministry",
-                description: "Nurturing young hearts in faith through engaging activities and Biblical teaching"
-              },
-              {
-                icon: Users,
-                title: "Youth Ministry",
-                description: "Empowering teenagers to live boldly for Christ in today's world"
-              },
-              {
-                icon: Heart,
-                title: "Young Adults",
-                description: "Building community and growing in faith together"
-              },
-              {
-                icon: Coffee,
-                title: "Small Groups",
-                description: "Connecting in meaningful relationships and studying God's Word"
-              },
-              {
-                icon: Music,
-                title: "Worship Ministry",
-                description: "Leading the congregation in praise and worship"
-              },
-              {
-                icon: HandHeart,
-                title: "Outreach",
-                description: "Serving our local community with the love of Christ"
-              },
-              {
-                icon: Globe,
-                title: "Missions",
-                description: "Supporting and participating in global missions"
-              },
-              {
-                icon: BookOpen,
-                title: "Bible Study",
-                description: "Deep diving into Scripture for spiritual growth"
-              }
-            ].map((ministry, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-                <ministry.icon className="h-12 w-12 text-primary mb-4" />
-                <h3 className="text-xl font-bold mb-2">{ministry.title}</h3>
-                <p className="text-gray-600 mb-4">{ministry.description}</p>
-                <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
-                  Learn More
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </button>
-              </div>
-            ))}
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <Child className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Children's Ministry</h3>
+              <p className="text-gray-600 mb-4">Nurturing young hearts in faith through engaging activities and Biblical teaching</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <Users className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Youth Ministry</h3>
+              <p className="text-gray-600 mb-4">Empowering teenagers to live boldly for Christ in today's world</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <Heart className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Young Adults</h3>
+              <p className="text-gray-600 mb-4">Building community and growing in faith together</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <Coffee className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Small Groups</h3>
+              <p className="text-gray-600 mb-4">Connecting in meaningful relationships and studying God's Word</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <Music className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Worship Ministry</h3>
+              <p className="text-gray-600 mb-4">Leading the congregation in praise and worship</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <HandHeart className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Outreach</h3>
+              <p className="text-gray-600 mb-4">Serving our local community with the love of Christ</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <Globe className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Missions</h3>
+              <p className="text-gray-600 mb-4">Supporting and participating in global missions</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <BookOpen className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Bible Study</h3>
+              <p className="text-gray-600 mb-4">Deep diving into Scripture for spiritual growth</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
           </div>
         </div>
       </section>

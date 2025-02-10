@@ -65,7 +65,7 @@ export default function Give() {
       </section>
 
       {/* Online Giving Form */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      {/* <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-3xl mx-auto">
           <div className="bg-white p-8 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-6 text-center">Make a Donation</h2>
@@ -134,7 +134,7 @@ export default function Give() {
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

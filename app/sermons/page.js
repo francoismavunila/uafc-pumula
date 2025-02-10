@@ -8,7 +8,7 @@ export default function Sermons() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1490127252417-7c393f993ee4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1578508709719-8c6647668ef3?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
           }}
@@ -58,7 +58,7 @@ export default function Sermons() {
           <div className="bg-white rounded-lg shadow-md overflow-hidden">
             <div className="aspect-w-16 aspect-h-9">
               <img
-                src="https://images.unsplash.com/photo-1616442830389-0ad5b6818570?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+                src="https://images.unsplash.com/photo-1585519916621-7af4c8636a18?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Latest sermon"
                 className="object-cover w-full h-full"
               />
@@ -111,7 +111,7 @@ export default function Sermons() {
                 speaker: "Pastor John Smith",
                 date: "March 10, 2024",
                 duration: "42 minutes",
-                image: "https://images.unsplash.com/photo-1445445290350-18a3b86e0b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                image: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               },
               {
                 title: "Grace in Action",
