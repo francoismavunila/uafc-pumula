@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Grace Community Church',
+  title: 'UAFC PUMULA CHURCH',
   description: 'A welcoming community of faith, hope, and love',
 };
 
