@@ -22,7 +22,7 @@ export default function Home() {
             Welcome to U.A.F.C (Pumula South)
           </h1>
           <p className="text-xl sm:text-2xl mb-8 max-w-2xl mx-auto animate-fade-up animation-delay-200">
-            Join us in worship and discover a community of faith, hope, and love
+          Turning the lost into members, members into Disciples and Disciples into LEADERS.
           </p>
           <div className="space-x-4 animate-fade-up animation-delay-300">
             <Link
@@ -81,19 +81,19 @@ export default function Home() {
               {
                 title: "Sunday Service",
                 date: "Every Sunday",
-                time: "9:00 AM & 12:00 AM",
+                time: "9:00 AM & 12:30 AM",
                 image: "https://images.unsplash.com/photo-1634334867745-376b3c609ed9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               },
               {
-                title: "Home Group",
-                date: "Every Friday",
-                time: "5:30 PM",
+                title: "Children's ministry",
+                date: "Every Sunday",
+                time: "9:30 PM",
                 image: "https://images.unsplash.com/photo-1533659124865-d6072dc035e1?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               },
               {
-                title: "Bible Study",
-                date: "Every Wednesday",
-                time: "7:00 PM",
+                title: "Youth Service",
+                date: "Every Sartuday",
+                time: "2:00 PM",
                 image: "https://images.unsplash.com/photo-1504052434569-70ad5836ab65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
               }
             ].map((event, index) => (

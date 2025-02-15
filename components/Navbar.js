@@ -41,7 +41,7 @@ export default function Navbar() {
               className="h-10 w-10 text-primary rounded-full border-2 border-primary shadow-lg" 
               alt="Logo"
             />
-            <span className="font-bold text-xl">UAFC Pumula</span>
+            <span className="font-bold text-xl">UAFC Pumula South</span>
           </Link>
 
           {/* Desktop Navigation */}

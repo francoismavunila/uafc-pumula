@@ -12,11 +12,13 @@ export default function Footer() {
             <div className="space-y-2">
               <p className="flex items-center gap-2">
                 <MapPin className="h-5 w-5" />
-                123 Faith Street, City, ST 12345
+                God's Grace Preschool  
               </p>
+              <p>Pumula SOUTH BULAWAYO</p>
+              <p>near Premier High School</p>
               <p className="flex items-center gap-2">
                 <Phone className="h-5 w-5" />
-                +263 783 857 780
+                0782 745 048 /0776 411 048
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="h-5 w-5" />
@@ -40,7 +42,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Service Times</h3>
             <ul className="space-y-2">
-              <li>Sunday: 9:00 AM & 11:00 AM</li>
+              <li>Sunday: 9:00 AM to 12:30 AM</li>
               <li>Friday Home Group: 7:00 PM</li>
               <li>Youth Service: Saturday 2:00 PM</li>
             </ul>
@@ -64,7 +66,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center">
-          <p>&copy; {new Date().getFullYear()} UAFC. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} UAFC Pumula South. All rights reserved.</p>
         </div>
       </div>
     </footer>

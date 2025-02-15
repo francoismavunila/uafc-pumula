@@ -7,7 +7,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'UAFC PUMULA CHURCH',
+  title: 'UAFC Pumula South branch',
   description: 'A welcoming community of faith, hope, and love',
 };
 
