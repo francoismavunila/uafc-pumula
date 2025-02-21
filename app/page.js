@@ -22,7 +22,9 @@ export default function Home() {
             Welcome to U.A.F.C (Pumula South)
           </h1>
           <p className="text-xl sm:text-2xl mb-8 max-w-2xl mx-auto animate-fade-up animation-delay-200">
-          Turning the lost into members, members into Disciples and Disciples into LEADERS.
+          {/* Turning the lost into members, members into Disciples and Disciples into LEADERS. */}
+          <span className="block font-semibold">Acts 17:28</span>
+          <span className="block italic">"In HIM WE LIVE, MOVE AND HAVE OUR BEING"</span>
           </p>
           <div className="space-x-4 animate-fade-up animation-delay-300">
             <Link
@@ -51,7 +53,7 @@ export default function Home() {
               <p className="text-gray-600 mb-6">
                 We're so glad you're interested in visiting UAFC Pumula South. Our doors are
                 open to everyone seeking to grow in their faith and find community.
-                Join us this Sunday for worship, inspiring messages, and fellowship.
+                Looking for a place to belong, to be loved, and to serve? Join us this weekend as we gather to worship, learn, and grow together. Experience the love, support, and encouragement of our church family. See you there. God bless you.
               </p>
               <Link
                 href="/about"
