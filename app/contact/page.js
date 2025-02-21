@@ -81,21 +81,23 @@ export default function Contact() {
                     <MapPin className="h-6 w-6 text-primary flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold">Address</h3>
-                      <p className="text-gray-600">123 Faith Street<br />City, ST 12345</p>
+                      <p className="text-gray-600">God's Grace Preschool 
+                        <br/>Pumula SOUTH BULAWAYO
+                        <br/>near Premier High School</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <Phone className="h-6 w-6 text-primary flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold">Phone</h3>
-                      <p className="text-gray-600">(555) 123-4567</p>
+                      <p className="text-gray-600">0772643120</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
                     <Mail className="h-6 w-6 text-primary flex-shrink-0" />
                     <div>
                       <h3 className="font-semibold">Email</h3>
-                      <p className="text-gray-600">info@gracechurch.org</p>
+                      <p className="text-gray-600">mavunila002@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -103,18 +105,18 @@ export default function Contact() {
                     <div>
                       <h3 className="font-semibold">Service Times</h3>
                       <div className="text-gray-600">
-                        <p>Sunday: 9:00 AM & 11:00 AM</p>
-                        <p>Wednesday: 7:00 PM</p>
+                        <p>Sunday: 9:00 AM to 12:30 AM</p>
+                        {/* <p>Wednesday: 7:00 PM</p> */}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
+    
               {/* Map */}
               <div className="h-[300px] rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1!2d-73.9!3d40.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM40zMCcwMC4wIk4gNzPCsDU0JzAwLjAiVw!5e0!3m2!1sen!2sus!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d781.4932472440631!2d28.485240269511415!3d-20.162583739909945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDA5JzQ1LjMiUyAyOMKwMjknMDkuMiJF!5e1!3m2!1sen!2szw!4v1740159747203!5m2!1sen!2szw"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

@@ -1,4 +1,4 @@
-import { Users, Music, Globe, HandHeart } from 'lucide-react';
+import { Users, Music, Globe, HandHeart, Camera, BookOpen, DollarSign, ClipboardList } from 'lucide-react';
 import { ArrowRight } from 'lucide-react';
 
 export default function Ministries() {
@@ -57,8 +57,44 @@ export default function Ministries() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <Globe className="h-12 w-12 text-primary mb-4" />
-              <h3 className="text-xl font-bold mb-2">Evangelism Team</h3>
+              <h3 className="text-xl font-bold mb-2">Evangelism and outreach Team</h3>
               <p className="text-gray-600 mb-4">Sharing the gospel and reaching out to the community</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <Camera className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Media Team</h3>
+              <p className="text-gray-600 mb-4">Capturing and sharing church moments through various media</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <BookOpen className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Discipleship and Counselling Team</h3>
+              <p className="text-gray-600 mb-4">Guiding and mentoring individuals in their spiritual journey</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <DollarSign className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Finance Committee</h3>
+              <p className="text-gray-600 mb-4">Managing church finances with integrity and transparency</p>
+              <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </button>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <ClipboardList className="h-12 w-12 text-primary mb-4" />
+              <h3 className="text-xl font-bold mb-2">Administration Committee</h3>
+              <p className="text-gray-600 mb-4">Overseeing church operations and ensuring smooth administration</p>
               <button className="text-primary hover:text-primary/80 font-semibold inline-flex items-center">
                 Learn More
                 <ArrowRight className="ml-2 h-5 w-5" />

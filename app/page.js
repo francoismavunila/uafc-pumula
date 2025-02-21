@@ -22,10 +22,12 @@ export default function Home() {
             Welcome to U.A.F.C (Pumula South)
           </h1>
           <p className="text-xl sm:text-2xl mb-8 max-w-2xl mx-auto animate-fade-up animation-delay-200">
-          {/* Turning the lost into members, members into Disciples and Disciples into LEADERS. */}
-          <span className="block font-semibold">Acts 17:28</span>
-          <span className="block italic">"In HIM WE LIVE, MOVE AND HAVE OUR BEING"</span>
+            Turning the lost into members, members into Disciples and Disciples into LEADERS.
           </p>
+          <div className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto animate-fade-up animation-delay-200">
+            <span className="block font-semibold text-white">Acts 17:28</span>
+            <span className="block italic text-gray-300 mt-2">"In HIM WE LIVE, MOVE AND HAVE OUR BEING"</span>
+          </div>
           <div className="space-x-4 animate-fade-up animation-delay-300">
             <Link
               href="/about"
